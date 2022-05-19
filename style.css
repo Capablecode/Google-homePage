@@ -1,0 +1,81 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+nav img{
+    height: 20px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.user{
+    background-color: #0097A7;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    text-align: center;
+}
+main{
+    width: 50%;
+    margin: 7em auto;
+    text-align: center;
+    position: relative;
+}
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+.fa-search{
+    position: absolute;
+    top: 9.3rem;
+    left: 5rem;
+}
+.fa-microphone{
+    position: absolute;
+    top: 9.3rem;
+    right: 6rem;
+}
+.btns-container{
+    margin-top: 2em;
+    margin-bottom: 2rem;
+}
+.btns-container button{
+    padding: 1em;
+    border: none;
+}
+footer{
+    background-color: rgb(233, 223, 223);
+}
+.footer-top{
+    padding: 1em;
+}
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.left a{
+    margin-right: 1em;
+}
+.right a{
+    margin-right: 1em;
+}
+.offer a{
+    color: blue;
+    margin-right: 0.7em;
+}
